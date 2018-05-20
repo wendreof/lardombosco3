@@ -5,7 +5,7 @@ jQuery(document).ready(function($) {
 	//set your google maps parameters
 	var $latitude =  -21.823834,
 		$longitude =  -47.251827,
-		$map_zoom = 18;
+		$map_zoom = 16;
 
 	//google map custom marker icon - .png fallback for IE11
 	var is_internetExplorer11= navigator.userAgent.toLowerCase().indexOf('trident') > -1;
@@ -17,7 +17,7 @@ jQuery(document).ready(function($) {
 		$brightness= 5;
 
 	//we define here the style of the map
-	var style= [ 
+	var style= [
 		{
 			//set saturation for the labels on the map
 			elementType: "labels",
