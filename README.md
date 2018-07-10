@@ -1,3 +1,3 @@
 <p>
-  <img src="assets/img/preview.jpg" width="1000"/>
+  <img src="assets/img/preview.png" width="1000"/>
 </p>
